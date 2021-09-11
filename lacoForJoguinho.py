@@ -38,7 +38,7 @@ for rodada in range(1, total_de_tentativas + 1):
     menor   = chute < numero_secreto
 
     if (acertou):
-        print("Você acertou efez {} pontos")
+        print("Você acertou efez {} pontos".format(pontos))
         break
     else:
         if(maior):
