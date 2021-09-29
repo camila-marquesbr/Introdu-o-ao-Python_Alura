@@ -29,7 +29,10 @@ def jogar():
         print(letras_acertadas)
 
 
-
+    if(acertou):
+        print("Você ganhou!")
+    else:
+        print("você perdeu!")
 
     print("Fim do jogo")
 
