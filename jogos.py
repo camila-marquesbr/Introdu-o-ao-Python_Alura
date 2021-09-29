@@ -6,6 +6,7 @@ def escolhe_jogo():
     print("*******Escolha o seu jogo!*******")
     print("*********************************")
 
+#Escolha dos jogos
     print("(1) Forca (2) Adivinhação")
 
     jogo = int(input("Qual jogo? "))
